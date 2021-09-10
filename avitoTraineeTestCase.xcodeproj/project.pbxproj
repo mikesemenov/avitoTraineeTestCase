@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B09478726E9344100C4F12A /* MainTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B09478626E9344100C4F12A /* MainTableCell.xib */; };
+		4B09478C26EA813D00C4F12A /* DefaultPersistencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09478B26EA813D00C4F12A /* DefaultPersistencyService.swift */; };
 		4B82C31126E62D9C00B10880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82C31026E62D9C00B10880 /* AppDelegate.swift */; };
 		4B82C31326E62D9C00B10880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82C31226E62D9C00B10880 /* SceneDelegate.swift */; };
 		4B82C31526E62D9C00B10880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82C31426E62D9C00B10880 /* ViewController.swift */; };
-		4B82C31826E62D9C00B10880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B82C31626E62D9C00B10880 /* Main.storyboard */; };
 		4B82C31A26E62D9E00B10880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B82C31926E62D9E00B10880 /* Assets.xcassets */; };
 		4B82C31D26E62D9E00B10880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B82C31B26E62D9E00B10880 /* LaunchScreen.storyboard */; };
+		4B82C32F26E6803700B10880 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82C32E26E6803700B10880 /* APICaller.swift */; };
+		4B82C33126E688F600B10880 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82C33026E688F600B10880 /* DataResponse.swift */; };
+		4B82C33526E6B36600B10880 /* AppJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82C33426E6B36600B10880 /* AppJSONDecoder.swift */; };
+		4B82C33A26E7624900B10880 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82C33926E7624900B10880 /* URLExtension.swift */; };
+		4B82C33E26E7DA3400B10880 /* MainTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82C33C26E7DA3400B10880 /* MainTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B09478626E9344100C4F12A /* MainTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableCell.xib; sourceTree = "<group>"; };
+		4B09478B26EA813D00C4F12A /* DefaultPersistencyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPersistencyService.swift; sourceTree = "<group>"; };
 		4B82C30D26E62D9C00B10880 /* avitoTraineeTestCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avitoTraineeTestCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B82C31026E62D9C00B10880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B82C31226E62D9C00B10880 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4B82C31426E62D9C00B10880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B82C31726E62D9C00B10880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B82C31926E62D9E00B10880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B82C31C26E62D9E00B10880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B82C31E26E62D9E00B10880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B82C32E26E6803700B10880 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		4B82C33026E688F600B10880 /* DataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
+		4B82C33426E6B36600B10880 /* AppJSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppJSONDecoder.swift; sourceTree = "<group>"; };
+		4B82C33926E7624900B10880 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		4B82C33C26E7DA3400B10880 /* MainTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,109 @@
 		4B82C30F26E62D9C00B10880 /* avitoTraineeTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				4B82C31026E62D9C00B10880 /* AppDelegate.swift */,
+				4B82C32B26E6393B00B10880 /* BusinessLogic */,
+				4B82C32726E638F500B10880 /* Presentation */,
+				4B82C32626E637FB00B10880 /* SupportingFiles */,
+				4B82C32426E62E4200B10880 /* Resources */,
+			);
+			path = avitoTraineeTestCase;
+			sourceTree = "<group>";
+		};
+		4B82C32426E62E4200B10880 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				4B82C31226E62D9C00B10880 /* SceneDelegate.swift */,
-				4B82C31426E62D9C00B10880 /* ViewController.swift */,
-				4B82C31626E62D9C00B10880 /* Main.storyboard */,
+				4B82C31026E62D9C00B10880 /* AppDelegate.swift */,
 				4B82C31926E62D9E00B10880 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B82C32626E637FB00B10880 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				4B82C31B26E62D9E00B10880 /* LaunchScreen.storyboard */,
 				4B82C31E26E62D9E00B10880 /* Info.plist */,
 			);
-			path = avitoTraineeTestCase;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4B82C32726E638F500B10880 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4B82C32826E638FD00B10880 /* Main */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4B82C32826E638FD00B10880 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4B82C32A26E6392000B10880 /* View */,
+				4B82C32926E6391800B10880 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4B82C32926E6391800B10880 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B82C31426E62D9C00B10880 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4B82C32A26E6392000B10880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B82C33B26E7D9E500B10880 /* CellView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B82C32B26E6393B00B10880 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				4B82C33826E7623000B10880 /* Helpers */,
+				4B82C32D26E63AFF00B10880 /* Services */,
+				4B82C32C26E63AF300B10880 /* Model */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		4B82C32C26E63AF300B10880 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B82C33026E688F600B10880 /* DataResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B82C32D26E63AFF00B10880 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4B82C32E26E6803700B10880 /* APICaller.swift */,
+				4B09478B26EA813D00C4F12A /* DefaultPersistencyService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4B82C33826E7623000B10880 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B82C33426E6B36600B10880 /* AppJSONDecoder.swift */,
+				4B82C33926E7624900B10880 /* URLExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4B82C33B26E7D9E500B10880 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				4B82C33C26E7DA3400B10880 /* MainTableCell.swift */,
+				4B09478626E9344100C4F12A /* MainTableCell.xib */,
+			);
+			path = CellView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B09478726E9344100C4F12A /* MainTableCell.xib in Resources */,
 				4B82C31D26E62D9E00B10880 /* LaunchScreen.storyboard in Resources */,
 				4B82C31A26E62D9E00B10880 /* Assets.xcassets in Resources */,
-				4B82C31826E62D9C00B10880 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +243,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B82C33526E6B36600B10880 /* AppJSONDecoder.swift in Sources */,
+				4B82C33A26E7624900B10880 /* URLExtension.swift in Sources */,
 				4B82C31526E62D9C00B10880 /* ViewController.swift in Sources */,
+				4B82C33E26E7DA3400B10880 /* MainTableCell.swift in Sources */,
 				4B82C31126E62D9C00B10880 /* AppDelegate.swift in Sources */,
 				4B82C31326E62D9C00B10880 /* SceneDelegate.swift in Sources */,
+				4B82C33126E688F600B10880 /* DataResponse.swift in Sources */,
+				4B82C32F26E6803700B10880 /* APICaller.swift in Sources */,
+				4B09478C26EA813D00C4F12A /* DefaultPersistencyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B82C31626E62D9C00B10880 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B82C31726E62D9C00B10880 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B82C31B26E62D9E00B10880 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +392,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6LLMTMY383;
-				INFOPLIST_FILE = avitoTraineeTestCase/Info.plist;
+				INFOPLIST_FILE = avitoTraineeTestCase/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +411,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6LLMTMY383;
-				INFOPLIST_FILE = avitoTraineeTestCase/Info.plist;
+				INFOPLIST_FILE = avitoTraineeTestCase/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
