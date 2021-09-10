@@ -16,4 +16,4 @@ https://github.com/avito-tech/ios-trainee-problem-2021
 
 скриншот приложения
 
-![appImage](https://github.com/mikesemenov/avitoTraineeTestCase/screenshot/app.png)
+![appImage](https://github.com/mikesemenov/avitoTraineeTestCase/blob/main/screenshot/app.png)
